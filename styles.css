@@ -915,7 +915,7 @@ a.card .textlink{ pointer-events:none; } /* link text just visual */
 }
 
 .brand-logo {
-  height: 70px;   /* clean professional size */
+  height: 100px;   /* clean professional size */
   width: auto;
   display: block;
   object-fit: contain;
@@ -1168,6 +1168,7 @@ a.card .textlink{ pointer-events:none; } /* link text just visual */
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
