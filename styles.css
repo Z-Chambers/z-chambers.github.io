@@ -906,15 +906,16 @@ a.card .textlink{ pointer-events:none; } /* link text just visual */
   border-radius: 18px;
   transform: translateZ(0);
 }
-/* ===== Navbar Logo ===== */
+/* ===== Navbar Logo FIXED ===== */
 
 .brand {
   display: flex;
   align-items: center;
+  height: 72px; /* match navbar height */
 }
 
 .brand-logo {
-  height: 50px;      /* 🔥 Bigger logo */
+  height: 52px;   /* clean professional size */
   width: auto;
   display: block;
   object-fit: contain;
@@ -924,6 +925,7 @@ a.card .textlink{ pointer-events:none; } /* link text just visual */
 .brand-logo:hover {
   transform: scale(1.05);
 }
+
 /* ===== CONTACT (Q&A) ===== */
 
 .contact-wrapper{
@@ -1166,6 +1168,7 @@ a.card .textlink{ pointer-events:none; } /* link text just visual */
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
